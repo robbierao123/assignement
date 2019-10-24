@@ -1,0 +1,19 @@
+line 2  added the "a" so there's no Multiple JSON root error
+
+"a":{
+  "resourceType": "Patient",
+  "id": "xcda",
+  "text": 
+    "status generated",
+    "div": "\n      \n      <p>Henry Levin the 7th</>\n    \n    </div>"
+  },
+
+line 9, added comma for all the missing ones 
+
+eg:
+ "system": "htt://hl7.org/fhir/v2/0203" [missing comma]
+ 
+            "code": "MR"
+
+  "system": "urn:oid:2.16.840.1.113883.19.5" [missing comma]
+      "value": "12345"
